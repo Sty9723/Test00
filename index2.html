@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form di registrazione</title>
+        <link rel="stylesheet" href="style.css" />
+        <style>
+           body{
+            background-image: url("ph1.jpg");
+            color: Black;
+           }
+           p{
+            text-align: center;
+            font-size: 30px;
+           }
+           #footer-container-5{
+            background-color: transparent;
+            text-align: center;
+            margin-top: 20px;
+           }
+        </style>
+    </head>
+    <body>
+        <h2>Form di Registrazione</h2>
+            <p>
+                <em><strong>
+                    compila il form per registrarti al sito:
+                </strong></em>
+            </p>
+
+        <form action="" method="post" name="form"
+        enctype="multipart/form-data">
+        <table border="1">
+        <tr>
+            <td align="right">cognome e nome:</td>
+            <td><input type="text" name="nome" size="50" maxlength="50" required></td>
+        <tr>
+            <td align="right">data di nascita:</td>
+            <td><input type="date" name="ddn"></td>
+        </tr>
+        <tr>
+            <td align="right">CAP:</td>
+            <td><input type="number" name="cap" size="5" maxlength="5"></td>
+        </tr>
+        <tr>
+            <td align="right">codice fiscale:</td>
+            <td><input type="text" name="cf" size="16" maxlength="16"></td>
+        </tr>
+        <tr>
+            <td align="right">studente lavoratore:</td>
+            <td><input type="checkbox" name="lavoratore"></td>
+        </tr>
+        <tr>        
+            <td align="right">foto:</td>
+            <td><input type="file" name="foto"></td>
+        </tr>
+        <tr>
+            <td align="right">giudizio:</td>
+            <td><input type="radio" 
+                name="giudizio" 
+                value="sufficiente">sufficiente
+        <input type="radio" name="giudizio" value="buono">buono
+        <input type="radio" name="giudizio" value="ottimo">ottimo</td>
+        </tr>
+        <tr>
+            <td align="right">descrizione lavoro:</td>
+            <td><textarea name="descr" cols="60" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td align="center"><input type="submit" value="Invia form"></td>
+            <td align="center"><input type="reset" value="Reset form"></td>
+        </tr></table>
+        </form>                                                              
+
+        <div id="footer-container-5">
+            <footer>
+                <button type="button">
+                    <a href="index.html"><strong>TORNA ALLA HOMEPAGE</strong></a></button>
+    </body>
+</html>
