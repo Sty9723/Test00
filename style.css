@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightslategray;
+    color:cornflowerblue;
+}
+/*Creazione del menu nell'Header */
+.topnav a {
+    display: block;
+    float: right;
+    text-align: center;         
+    padding: 14px 16px;          
+    text-decoration: none;  
+}
+/*Cursore sopra al Menu*/
+.topnav a:hover{
+    background-color:rgb(102, 169, 228);
+}
+/*per quando clicco il link*/
+.topnav a:active {
+    background-color:blueviolet;
+    color:white;
+}
+/*Titolo*/
+h1{
+    padding: 10px;
+    margin: 0px;
+    font-size: 80px;
+    display: inline-block;
+    text-align: center;                  
+}
+/*Sottotitoli*/
+h2{
+     font-size: 80px;
+     text-align: center;
+}
+.header-0{
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 0;
+}
+.header-0 a:active {
+    color: blueviolet;
+}
+
+.container{
+display: flex;
+border: 1px solid red;
+margin-top: 10px;
+}
+
+.item{
+background: darkmagenta;
+margin: 0;
+}
+
+#footer-container{
+text-align: center;
+margin-top: 10px;
+padding: 60px;
+background-color: black;
+color: blueviolet;
+}
+
+footer a{
+text-align: center;
+color: blueviolet;
+}
+
+table a:hover, footer a:hover{
+color:rgb(102, 169, 228)
+}
+
+table, th, td {
+margin-top: 10px;
+width: 700px;
+margin-left: auto; 
+margin-right: auto;
+color: grey;
+background-color: rgba(0, 0, 0, 0.74);
+}
+a {
+text-decoration: none;
+}
+a:active{
+color:  none;
+}
+button{
+    font-size: 25px;
+    padding: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/*Media per dispositivi circa*/
+@media screen and (max-width: 600px) {
+    .topnav {
+    float: none;
+    width: 100%;
+    }}
+    
